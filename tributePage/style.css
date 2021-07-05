@@ -1,0 +1,21 @@
+main {
+  text-align: center
+}
+#image {
+  width: 100%;
+  height: auto;
+  max-width: 625px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+body {
+  background-color: seashell;
+}
+.box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 700px;
+  margin: auto;
+  background-color: #fff7fb;
+  border: 2px solid black;
+    }
