@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form Project</title>
+  <link rel="stylesheet" href="./style.css">
 
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+<main id="main">
+  <div id="top" class="box">
+    <h1 id="title">Tournament Feedback Form</h1>
+    <p id="description">Help us improve the quality of our smash tournaments by giving us some feedback.</p>
+  </div>
+  
+  <br>  
+
+  <div id="survey" class="box">
+    <br>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name</label>
+      <input type="text" id="name" placeholder="John Smith" required>
+      <br><br>
+      <label for="email" id="email-label">Email</label>
+      <input type="email" id="email" placeholder="john@gmail.com" required>
+      <br><br>
+      <label for="number" id="number-label" required>Phone Number</label>
+      <input type="number" id="number" min="0" max="9999999999" placeholder="9999999999">
+      <br><br>
+      <label for="game" id="game-label">Main Game</label> 
+      <select id="dropdown">
+          <option value="Melee">Melee</option>
+          <option value="Ultimate">Ultimate</option>
+      </select>
+      <br><br>
+      Which events did you enter? 
+      <br>
+      <input type=checkbox value="enterMelee">
+      <label for="enterMelee">Melee</label>
+      <input type=checkbox value="enterUlt">
+      <label for="enterUlt">Ultimate</label>
+      <br><br>
+      Would you recomend the event to a friend? 
+      <br>
+      <input type="radio" name="rec" value="postive">
+      <label>Would recommend</label> 
+      <br>
+      <input type="radio" name="rec" value="negative">
+      <label>Would not recommend</label>
+      <br><br>
+      Any suggestions on how to improve our events?
+      <br>
+      <textarea id="textArea"></textarea>
+      <br><br>
+      <input type="submit" id="submit"></input>
+    </form>
+    <br>
+                          
+  </div>                        
+</main>
+</body>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
