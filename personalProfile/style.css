@@ -1,0 +1,46 @@
+main {
+  text-align: left;
+}
+body {
+  background-color: seashell;
+}
+
+#navbar {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100px;
+  margin: auto;
+  text-align: center;
+  margin-left: 500px;
+  background-color: #fff7fb;
+  border: 2px solid black;
+  position: fixed;
+  top: 0;
+    }
+.nav-link {
+  font-size: 20px;
+}
+ {
+  position: top;
+}
+.box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 700px;
+  margin: auto;
+  background-color: #fff7fb;
+  border: 2px solid black;
+  padding-left: 15px;
+  padding-right: 15px;  
+    }
+#welcome-section {
+  padding-top: 0px;
+  margin-top: 0px;
+  display: block;
+  height: 100vh;
+  text-align: center;
+  padding-left: 250px;
+  padding-right: 250px;
+    }  
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: lightblue;
+  }
